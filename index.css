@@ -1,0 +1,16 @@
+body {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#display {
+    width: 150px;
+    height: 150px;
+    background: gray;
+    transition: background 100ms;
+    border: 1px solid black;
+}
+
+.textBox {
+    width: 30px;
+}

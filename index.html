@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático Módulo I</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1>RGB</h1>
+    <form>
+        <div>
+            <label>
+                <p>
+                    <span>(R) Vermelho</span>
+                    <input type="range" class="slider" id="getRed" min="0" max="255" onchange="getRangeRedValue()" value="190">
+                    <input type="text" class="textBox" id="putRed" disabled value="190">
+                </p>
+            </label>
+
+            <label>
+                <p>
+                    <span>(G) Verde</span>
+                    <input type="range" class="slider" id="getGreen" min="0" max="255" onchange="getRangeGreenValue()" value="190">
+                    <input type="text" class="textBox" id="putGreen" disabled value="190">
+                </p>
+            </label>
+
+            <label>
+                <p>
+                    <span>(B) Blue</span>
+                    <input type="range" class="slider" id="getBlue" min="0" max="255" onchange="getRangeBlueValue()" value="190">
+                    <input type="text" class="textBox" id="putBlue" disabled value="190">
+                </p>
+            </label>
+            <div id="display"></div>
+        </div>
+    </form>
+    <script src="./js/pratica.js"></script>
+</body>
+</html>
